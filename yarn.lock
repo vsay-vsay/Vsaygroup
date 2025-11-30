@@ -4277,6 +4277,7 @@ __metadata:
     dotted-map: "npm:^2.2.3"
     eslint: "npm:^9"
     eslint-config-next: "npm:15.5.4"
+    framer-motion: "npm:^12.23.24"
     lucide-react: "npm:^0.545.0"
     motion: "npm:^12.23.22"
     next: "npm:15.5.4"

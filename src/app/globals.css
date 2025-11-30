@@ -12,7 +12,8 @@
   --font-mono: var(--font-geist-mono);
   --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1;
   --animate-meteor-effect: meteor 5s linear infinite;
-    @keyframes cell-ripple {
+  
+  @keyframes cell-ripple {
     0% {
       opacity: 0.4;
     }
@@ -23,7 +24,8 @@
       opacity: 0.4;
     }
   };
-    @keyframes meteor {
+  
+  @keyframes meteor {
     0% {
       transform: rotate(215deg) translateX(0);
       opacity: 1;
@@ -35,13 +37,6 @@
       transform: rotate(215deg) translateX(-500px);
       opacity: 0;
     }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
   }
 }
 

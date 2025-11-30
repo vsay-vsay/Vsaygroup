@@ -72,7 +72,7 @@ export default function NavbarTop({ children }: { children?: ReactNode }) {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-neutral-600 dark:text-neutral-300"
+                className="relative text-black"
               >
                 <span className="block">{item.name}</span>
               </a>
@@ -80,8 +80,7 @@ export default function NavbarTop({ children }: { children?: ReactNode }) {
             <div className="flex w-full flex-col gap-4">
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
+                className="w-full text-black"
                 href="/contact"
               >
                 Contact Us
