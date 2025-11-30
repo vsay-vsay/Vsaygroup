@@ -15,10 +15,10 @@ const ServicesPage: React.FC = () => {
       content: (
         <div key="robotics-content">
           <div className="space-y-6 mb-8">
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
               We specialize in developing cutting-edge robotics solutions that can be used in various industries, such as manufacturing, logistics, and transportation. Our robots are designed with safety, reliability, and ease of use in mind.
             </p>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
               At our robotics service center, we offer comprehensive training programs, hands-on workshops, and expert-led sessions. Whether you're looking to learn, design new products, or refine robotics skills, we provide dedicated trainers and resources.
             </p>
           </div>
@@ -53,10 +53,10 @@ const ServicesPage: React.FC = () => {
       content: (
         <div key="iot-content">
           <div className="space-y-6 mb-8">
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
               IoT enables smart devices to communicate and interact seamlessly. At VSAY, we develop cutting-edge IoT solutions to improve efficiency, reduce costs, and enhance customer experiences.
             </p>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
               We offer professional training, workshops, product design, and prototyping. Our expert trainers ensure hands-on experience in developing and managing connected devices.
             </p>
           </div>
@@ -77,10 +77,10 @@ const ServicesPage: React.FC = () => {
       content: (
         <div key="ai-ml-content">
           <div className="space-y-6 mb-8">
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
               AI/ML combines computer science and statistics to create algorithms that learn from data. We develop solutions that optimize workflows and enhance customer experiences.
             </p>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
               Our expert team tailors AI/ML solutions to specific business needs, ensuring maximum impact and ROI through advanced training and implementation.
             </p>
           </div>
@@ -102,10 +102,10 @@ const ServicesPage: React.FC = () => {
       content: (
         <div key="data-analysis-content">
           <div className="space-y-6 mb-8">
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
               Data Analysis extracts insights from complex datasets to drive informed business decisions and strategies.
             </p>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200 leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
               Our solutions transform raw data into actionable intelligence through expert analysis and visualization techniques.
             </p>
           </div>
@@ -130,7 +130,7 @@ const ServicesPage: React.FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent mb-6">
             Our Services
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-black max-w-3xl mx-auto leading-relaxed">
             Comprehensive technology solutions for modern businesses
           </p>
         </div>
