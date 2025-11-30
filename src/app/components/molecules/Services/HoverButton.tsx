@@ -1,0 +1,39 @@
+"use client";
+import React from "react";
+import Image from "next/image";
+import { HoverBorderGradient } from "@/app/components/atom/hover-border-gradient";
+
+interface HoverBorderGradientButtonProps {
+  text: string;
+  url: string;
+  logo?: string;
+}
+
+export function HoverBorderGradientButton({
+  text,
+  url,
+  logo,
+}: HoverBorderGradientButtonProps) {
+  return (
+    <div className="flex justify-center text-center pt-10">
+      <HoverBorderGradient
+        containerClassName="rounded-full"
+        as="a"
+        href={url}
+        className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 px-6 py-2"
+      >
+        {logo && (
+          <Image
+            src={logo}
+            alt="Logo"
+            width={40} // Adjust size as needed
+            height={20}
+            className="h-5 w-5"
+          />
+        )}
+        <span>{text}</span>
+      </HoverBorderGradient>
+    </div>
+  );
+}
+
