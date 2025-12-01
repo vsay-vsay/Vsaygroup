@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
             <div className="">
               <h5 className="h5 font-semibold text-lg">Popular Links</h5>
-              <ul className="mt-2 space-y-2 text-black">
+              <ul className="mt-2 space-y-2 dark:text-gray-100">
                 <li>
                   <Link
                     href="/"
