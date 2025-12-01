@@ -28,14 +28,6 @@ export default function NavbarTop({ children }: { children?: ReactNode }) {
       name: "Services",
       link: "/service",
     },
-    // {
-    //   name: "Products",
-    //   link: "/product",
-    // },
-    // {
-    //   name: "Testimonials",
-    //   link: "/testimonial",
-    // },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -72,7 +64,7 @@ export default function NavbarTop({ children }: { children?: ReactNode }) {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-black"
+                className="relative text-neutral-600 dark:text-neutral-300"
               >
                 <span className="block">{item.name}</span>
               </a>
@@ -80,7 +72,8 @@ export default function NavbarTop({ children }: { children?: ReactNode }) {
             <div className="flex w-full flex-col gap-4">
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="w-full text-black"
+                variant="primary"
+                className="w-full"
                 href="/contact"
               >
                 Contact Us
