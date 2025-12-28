@@ -12,11 +12,11 @@ const ServicesPage: React.FC = () => {
   title: "KTS-Cab",
   content: (
     <div>
-      <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
+      <p className="text-neutral-800 dark:text-neutral-200 text-sm sm:text-base md:text-lg font-normal mb-8">
         KTS-Cab is a modern ride-hailing mobile application for which we are developing the complete frontend using React Native. The application is being designed for both Android and iOS platforms with a strong focus on performance and usability.
       </p>
 
-      <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
+      <p className="text-neutral-800 dark:text-neutral-200 text-sm sm:text-base md:text-lg font-normal mb-8">
         The app is inspired by popular platforms like Uber and Rapido and includes a clean, intuitive user interface with smooth navigation and real-time interactions. Our goal is to deliver a scalable, reliable, and visually engaging user experience that meets real-world cab booking requirements.
       </p>
 
@@ -44,11 +44,11 @@ const ServicesPage: React.FC = () => {
   title: "Badminton Score",
   content: (
     <div>
-      <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
+      <p className="text-neutral-800 dark:text-neutral-200 text-sm sm:text-base md:text-lg font-normal mb-8">
         Badminton Score is a sports-focused mobile application developed using React Native for both Android and iOS platforms. The app is designed to provide live badminton match scores and real-time updates to users.
       </p>
 
-      <p className="text-neutral-800 dark:text-neutral-200 text-lg sm:text-sm md:text-base font-normal mb-8">
+      <p className="text-neutral-800 dark:text-neutral-200 text-sm sm:text-base md:text-lg font-normal mb-8">
         Inspired by applications like Cricbuzz, the platform focuses on fast performance, clean user interface, and accurate live scoring. The goal is to deliver an engaging and reliable experience for badminton enthusiasts through real-time match data and statistics.
       </p>
 
