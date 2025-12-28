@@ -2,6 +2,7 @@
 import { motion } from "motion/react";
 import React from "react";
 import { BackgroundRippleEffect } from "@/app/components/atom/background-ripple-effect.tsx";
+import Photo from "@/app/images/HomePage/HomePage.png";
 
 
 export default function HeroSection() {
@@ -86,7 +87,7 @@ Your one-stop hub for all things tech. From AI and robotics to software and beyo
         >
           <div className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
             <img
-              src="https://assets.aceternity.com/pro/aceternity-landing.webp"
+              src={Photo.src}
               alt="Landing page preview"
               className="aspect-[16/9] h-auto w-full object-cover"
               height={1000}

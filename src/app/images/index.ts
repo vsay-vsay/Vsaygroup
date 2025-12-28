@@ -28,6 +28,12 @@ import sarthak from '@/app/images/people/Sharthak.jpg';
 import anish from '@/app/images/people/Anish.jpeg';
 import jai from '@/app/images/people/jai.jpeg';
 import sushant from '@/app/images/people/sushant.png';
+import Feature1 from '@/app/images/HomePage/feature1.jpg';
+import Feature2 from '@/app/images/HomePage/Feature2.avif';
+import Feature3 from '@/app/images/HomePage/Feature3.avif';
+import Feature4 from '@/app/images/HomePage/Feature4.jpg';
+import Feature5 from '@/app/images/HomePage/Feature5.avif';
+import Feature6 from '@/app/images/HomePage/Feature6.jpg';  
 // import printingpage1 from '@/app/images/services/printing/printing1.jpeg';
 // import printingpage2 from '@/app/images/services/printing/printing2.jpeg';
 // import printingpage3 from '@/app/images/services/printing/printing3.jpeg';
@@ -75,6 +81,12 @@ export {
     anish,
     jai,
     sushant,
+    Feature1,
+    Feature2,
+    Feature3,
+    Feature4,
+    Feature5,
+    Feature6,
 //     printingpage1,
 //     printingpage2,
 //     printingpage3,
