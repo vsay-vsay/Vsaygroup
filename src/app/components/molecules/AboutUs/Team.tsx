@@ -2,11 +2,11 @@ import { people } from "@/app/constants";
 import Image from "next/image";
 export default function Team() {
     return (
-        <div className="pt-[4.75rem] lg:[5.25rem] overflow-hidden pl-[4.5rem] pr-12">
+        <div className="pt-[0.75rem] lg:[5.25rem] overflow-hidden pl-[0.5rem] pr-12">
       <div className="sm:py-12">
         <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-xl">
-            <h2 className="text-pretty text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
+            <h2 className="relative text-pretty text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:ml-[-10]">
               Meet our leadership
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600 dark:text-gray-300">

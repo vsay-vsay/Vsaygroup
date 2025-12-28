@@ -24,14 +24,14 @@ export default function NavbarTop({ children }: { children?: ReactNode }) {
       name: "About Us",
       link: "/about",
     },
-    {
-      name: "Services",
-      link: "/service",
-    },
     // {
-    //   name: "Products",
-    //   link: "/product",
+    //   name: "Services",
+    //   link: "/service",
     // },
+    {
+      name: "Projects",
+      link: "/project",
+    },
     // {
     //   name: "Testimonials",
     //   link: "/testimonial",

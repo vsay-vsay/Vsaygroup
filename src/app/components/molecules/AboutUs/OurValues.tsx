@@ -10,22 +10,18 @@ export default function MeteorsCards() {
         {/* Card 1 */}
         <div className="relative w-full">
           <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
-          <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-200 bg-white px-4 sm:px-6 py-6 sm:py-8 shadow-xl hover:shadow-2xl transition-shadow duration-300">
-            <CheckCircle className="h-7 w-7 sm:h-8 sm:w-8 text-blue-600 mb-3 sm:mb-4" />
+          <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-200 bg-white dark:bg-gray-900 px-4 sm:px-6 py-6 sm:py-8 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+            <CheckCircle className="h-7 w-7 sm:h-8 sm:w-8 text-blue-600 dark:text-gray-500 mb-3 sm:mb-4" />
 
-            <h1 className="relative z-50 mb-3 sm:mb-4 text-lg sm:text-xl font-bold text-gray-900">
-              Meteors because they&apos;re cool
+            <h1 className="relative z-50 mb-3 sm:mb-4 text-lg sm:text-xl font-bold text-gray-900 dark:text-white">
+              Excellence in Action
             </h1>
 
-            <p className="relative z-50 mb-4 sm:mb-6 text-sm sm:text-base font-normal text-gray-600 line-clamp-3">
-              I don&apos;t know what to write so I&apos;ll just paste something
-              cool here. One more sentence because lorem ipsum is just
-              unacceptable. Won&apos;t ChatGPT the shit out of this.
+            <p className="relative z-50 mb-4 sm:mb-6 text-sm sm:text-base font-normal text-gray-600 line-clamp-3 dark:text-slate-500">
+              We deliver the highest quality solutions and maintain the highest standards in everything we do.
             </p>
 
-            <button className="rounded-lg border border-gray-300 px-4 py-1.5 sm:py-2 text-sm sm:text-base text-gray-700 hover:bg-gray-50 transition-colors duration-200">
-              Explore
-            </button>
+           
 
             <Meteors number={20} />
           </div>
@@ -34,37 +30,18 @@ export default function MeteorsCards() {
         {/* Card 2 */}
         <div className="relative w-full">
           <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
-          <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-200 bg-white px-4 sm:px-6 py-6 sm:py-8 shadow-xl hover:shadow-2xl transition-shadow duration-300">
-            <div className="mb-3 sm:mb-4 flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-full border border-gray-300 bg-gray-50">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-gray-700"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
-                />
-              </svg>
-            </div>
+          <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border dark:bg-gray-900 border-gray-200 bg-white px-4 sm:px-6 py-6 sm:py-8 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+            <CheckCircle className="h-7 w-7 sm:h-8 sm:w-8 text-blue-600 mb-3 sm:mb-4 dark:text-gray-500" />
 
-            <h1 className="relative z-50 mb-3 sm:mb-4 text-lg sm:text-xl font-bold text-gray-900">
-              Meteors because they&apos;re cool
+            <h1 className="relative z-50 mb-3 sm:mb-4 text-lg sm:text-xl font-bold text-gray-900 dark:text-white">
+              Collaboration 
             </h1>
 
-            <p className="relative z-50 mb-4 sm:mb-6 text-sm sm:text-base font-normal text-gray-600 line-clamp-3">
-              I don&apos;t know what to write so I&apos;ll just paste something
-              cool here. One more sentence because lorem ipsum is just
-              unacceptable. Won&apos;t ChatGPT the shit out of this.
+            <p className="relative z-50 mb-4 sm:mb-6 text-sm sm:text-base font-normal text-gray-600 line-clamp-3 dark:text-slate-500">
+              We work closely with our clients to understand their needs and deliver tailored solutions.
             </p>
 
-            <button className="rounded-lg border border-gray-300 px-4 py-1.5 sm:py-2 text-sm sm:text-base text-gray-700 hover:bg-gray-50 transition-colors duration-200">
-              Explore
-            </button>
+           
 
             <Meteors number={20} />
           </div>
@@ -73,37 +50,16 @@ export default function MeteorsCards() {
         {/* Card 3 */}
         <div className="relative w-full">
           <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
-          <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-200 bg-white px-4 sm:px-6 py-6 sm:py-8 shadow-xl hover:shadow-2xl transition-shadow duration-300">
-            <div className="mb-3 sm:mb-4 flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-full border border-gray-300 bg-gray-50">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-gray-700"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
-                />
-              </svg>
-            </div>
+          <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border dark:bg-gray-900 border-gray-200 bg-white px-4 sm:px-6 py-6 sm:py-8 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <CheckCircle className="h-7 w-7 sm:h-8 sm:w-8 text-blue-600 mb-3 sm:mb-4 dark:text-gray-500" />
 
-            <h1 className="relative z-50 mb-3 sm:mb-4 text-lg sm:text-xl font-bold text-gray-900">
-              Meteors because they&apos;re cool
+            <h1 className="relative z-50 mb-3 sm:mb-4 text-lg sm:text-xl font-bold text-gray-900 dark:text-white">
+              Innovation
             </h1>
 
-            <p className="relative z-50 mb-4 sm:mb-6 text-sm sm:text-base font-normal text-gray-600 line-clamp-3">
-              I don&apos;t know what to write so I&apos;ll just paste something
-              cool here. One more sentence because lorem ipsum is just
-              unacceptable. Won&apos;t ChatGPT the shit out of this.
+            <p className="relative z-50 mb-4 sm:mb-6 text-sm sm:text-base font-normal text-gray-600 line-clamp-3 dark:text-slate-500">
+              We continuously explore new technologies and approaches to stay ahead of the curve.
             </p>
-
-            <button className="rounded-lg border border-gray-300 px-4 py-1.5 sm:py-2 text-sm sm:text-base text-gray-700 hover:bg-gray-50 transition-colors duration-200">
-              Explore
-            </button>
 
             <Meteors number={20} />
           </div>
