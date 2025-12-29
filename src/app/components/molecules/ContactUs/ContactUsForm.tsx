@@ -10,7 +10,7 @@ export default function ContactUsMolecule() {
   return (
     <>
     {/* Contact Form & Info */}
-      <section className="md:py-24">
+      <section className="md:py-24" id="contact-form">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -19,7 +19,7 @@ export default function ContactUsMolecule() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Get In Touch</CardTitle>
-                    <CardDescription>We'd love to hear from you. Here's how you can reach us.</CardDescription>
+                    <CardDescription>We&apos;d love to hear from you. Here&apos;s how you can reach us.</CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-6">
                     <div className="flex items-start space-x-4">
@@ -88,7 +88,7 @@ export default function ContactUsMolecule() {
                   <CardHeader>
                     <CardTitle>Send Us a Message</CardTitle>
                     <CardDescription>
-                      Fill out the form below and we'll get back to you as soon as possible.
+                      Fill out the form below and we&apos;ll get back to you as soon as possible.
                     </CardDescription>
                   </CardHeader>
                   <CardContent>

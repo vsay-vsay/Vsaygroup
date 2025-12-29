@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react'
 
 const GetStarted = () => {
   return (
-    <section className="py-16 md:py-24 bg-primary text-primary-foreground">
+    <section className="py-16 md:py-24 dark:bg-gray-800 bg-gray-200 text-primary-foreground relative">
         <div className="container mx-auto px-4">
           {/* <ScrollReveal> */}
             <div className="max-w-3xl mx-auto text-center space-y-6">
@@ -14,8 +14,8 @@ const GetStarted = () => {
                 Join our digital learning ecosystem powered by Microsoft & AWS. Let&apos;s unlock new horizons together and
                 nurture profound educational, professional, and social growth.
               </p>
-              <Button asChild size="lg" variant="secondary" className="text-base hover-scale">
-                <Link href="/contact">
+              <Button asChild size="lg" variant="default" className="text-base hover-scale">
+                <Link href="/contact#contact-form">
                   Get Started Today <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>

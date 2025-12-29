@@ -61,7 +61,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contactus/#mission"
+                    href="/about"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     About Us
@@ -69,7 +69,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/services"
+                    href="/#services"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     Our Services
@@ -77,15 +77,15 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/products"
+                    href="/project"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
-                    Our Products
+                    Our Projects
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/contactus/#contact"
+                    href="/contact/#contact-form"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     Feedback Form
@@ -93,7 +93,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contactus/#contact"
+                    href="/contact"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     Contact Us

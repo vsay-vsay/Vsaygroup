@@ -49,7 +49,7 @@ export default function NavbarTop({ children }: { children?: ReactNode }) {
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             <NavbarButton variant="secondary" href="/contact">Contact Us</NavbarButton>
-            <NavbarButton variant="primary">Get in Touch</NavbarButton>
+            <NavbarButton variant="primary" href="/contact#contact-form">Get in Touch</NavbarButton>
           </div>
         </NavBody>
 
@@ -90,6 +90,7 @@ export default function NavbarTop({ children }: { children?: ReactNode }) {
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
+                href="/contact#contact-form"
               >
                 Get in Touch
               </NavbarButton>
