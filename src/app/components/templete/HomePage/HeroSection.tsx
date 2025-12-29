@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import { motion } from "motion/react";
-import React from "react";
+// import React from "react";
 import { BackgroundRippleEffect } from "@/app/components/atom/background-ripple-effect.tsx";
 import Photo from "@/app/images/HomePage/HomePage.png";
 

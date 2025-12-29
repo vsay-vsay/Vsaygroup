@@ -3,7 +3,7 @@ import React from "react";
 import { Timeline } from "@/app/components/atom/timeline";
 // import { HoverBorderGradientButton } from "@/app/components/molecules/Services/HoverButton";
 // import logo from '@/app/images/vsay-logo.png'
-import {ai1, ai2, appdev, cyberSecurity1, cyberSecurity2, dataAnalysis1, dataAnalysis2, designing1, designing2, digitalMarketing1, digitalMarketing2, drone1, drone2, iot1, iot2, printing1, printing2, robotics1, robotics2, webdev } from "@/app/images/index";
+import { iot1, iot2, robotics1, robotics2 } from "@/app/images/index";
 // import {NavbarButton} from "@/app/components/atom/navbutton"
 
 const ServicesPage: React.FC = () => {
