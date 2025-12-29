@@ -41,7 +41,7 @@ export function ScrollReveal({ children, className = "", delay = 0 }: ScrollReve
   }, [delay])
 
   return (
-    <div ref={ref} className={className} style={{ opacity: 0 }}>
+    <div ref={ref} className={className} style={{ opacity: 1 }}>
       {children}
     </div>
   )
